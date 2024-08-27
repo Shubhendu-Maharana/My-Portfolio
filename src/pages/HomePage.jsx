@@ -23,9 +23,9 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="flex-1 flex items-center justify-center">
+    <div className="flex-1 flex items-center justify-center lg:px-32 z-50">
       <div className="hero">
-        <div className="hero-content flex-col lg:flex-row-reverse w-full lg:justify-between">
+        <div className="flex items-center justify-center gap-[1rem] p-[1rem] flex-col lg:flex-row-reverse w-full lg:justify-between">
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
@@ -34,6 +34,7 @@ const HomePage = () => {
               stiffness: 260,
               damping: 20,
             }}
+            className="z-10"
           >
             <img
               src="src\assets\profile-pic.jpg"
@@ -50,34 +51,52 @@ const HomePage = () => {
             }}
             className="text-white flex flex-col gap-8"
           >
-            <h1 className="text-4xl font-semibold">Hey! It's,</h1>
+            <h1 className="text-4xl font-semibold text-black dark:text-white">
+              Hey! It's,
+            </h1>
             <div className="bg-gradient-to-r from-purple-500 to-orange-500 bg-clip-text">
               <h1 className="text-5xl font-extrabold text-transparent">
                 Shubhendu Maharana
               </h1>
             </div>
             <h3 className="text-rose-400">
-              I'm a <span className="typing dark:text-green-400"></span>
+              I'm a <span className="typing text-green-400"></span>
             </h3>
-            <p className="text-white text-justify w-full sm:w-[35rem] md:w-[30rem] lg:w-[35rem]">
+            <p className="text-black dark:text-white text-justify w-full sm:w-[35rem] md:w-[30rem] lg:w-[35rem]">
               Hi, I'm Shubhendu, a 21-year-old MCA student and developer
               proficient in C, C++, React Native, MERN stack, and Android
               development. If you're looking to collaborate, chat about tech, or
               exchange ideas on the newest trends, let's get in touch!
             </p>
-            <div className="flex flex-row items-center justify-around text-3xl">
-              <motion.div whileHover={{ scale: 1.2 }}>
-                <FaGithub className="hover:text-gray-400 transition duration-300 cursor-pointer" />
-              </motion.div>
-              <motion.div whileHover={{ scale: 1.2 }}>
-                <FaLinkedinIn className="hover:text-gray-400 transition duration-300 cursor-pointer" />
-              </motion.div>
-              <motion.div whileHover={{ scale: 1.2 }}>
-                <FaTwitter className="hover:text-gray-400 transition duration-300 cursor-pointer" />
-              </motion.div>
-              <motion.div whileHover={{ scale: 1.2 }}>
-                <FaEnvelope className="hover:text-gray-400 transition duration-300 cursor-pointer" />
-              </motion.div>
+            <div className="flex flex-row items-center justify-around text-3xl text-black dark:text-white">
+              <a
+                href="https://github.com/Shubhendu-Maharana"
+                target="_blank"
+                className="dark:hover:text-gray-400 hover:text-gray-400 transition duration-300"
+              >
+                <FaGithub />
+              </a>
+              <a
+                href=""
+                target="_blank"
+                className="dark:hover:text-gray-400 hover:text-gray-400 transition duration-300"
+              >
+                <FaLinkedinIn />
+              </a>
+              <a
+                href=""
+                target="_blank"
+                className="dark:hover:text-gray-400 hover:text-gray-400 transition duration-300"
+              >
+                <FaTwitter />
+              </a>
+              <a
+                href=""
+                target="_blank"
+                className="dark:hover:text-gray-400 hover:text-gray-400 transition duration-300"
+              >
+                <FaEnvelope />
+              </a>
             </div>
           </motion.div>
         </div>

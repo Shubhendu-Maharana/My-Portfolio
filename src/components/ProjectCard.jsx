@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
     if (!icon) return null;
 
     return (
-      <div className="bg-[#ffffff22]" style={{ color }}>
+      <div className="bg-[#00000066] dark:bg-[#ffffff22]" style={{ color }}>
         {icon}
         <span>{language}</span>
       </div>
@@ -27,7 +27,7 @@ const ProjectCard = ({ project }) => {
   };
 
   return (
-    <div className="relative border rounded-lg shadow-md backdrop-blur-lg border-gray-700 transform transition duration-300 hover:scale-105 flex flex-col">
+    <div className="relative border rounded-lg shadow-md backdrop-blur-lg bg-[#00000033] dark:border-gray-700 border-gray-400 transform transition duration-300 hover:scale-105 flex flex-col">
       <div className="absolute top-3 right-3 rounded-full bg-violet-600 text-gray-200 px-3 py-1 text-center">
         {project.status}
       </div>
@@ -40,21 +40,21 @@ const ProjectCard = ({ project }) => {
       <div className="px-6 py-4 flex-1 flex flex-col justify-between items-center">
         <div className="">
           <a href="#">
-            <h5 className="text-xl font-semibold tracking-tight hover:text-violet-300 text-white transition duration-500">
+            <h5 className="text-xl font-semibold tracking-tight hover:text-violet-300 dark:text-white text-black transition duration-500">
               {project.name}
             </h5>
           </a>
 
-          <p className="antialiased text-gray-400 text-sm text-justify">
+          <p className="antialiased dark:text-white text-black text-sm text-justify">
             {project.description}
           </p>
         </div>
-        <div className="flex flex-wrap items-center py-4 gap-2 w-full *:flex *:items-center *:gap-1 *:text-xs *:bg-[#ffffff22] *:px-2 *:py-1 *:rounded-full *:cursor-default">
+        <div className="flex flex-wrap items-center py-4 gap-2 w-full *:flex *:items-center *:gap-1 *:text-xs *:px-2 *:py-1 *:rounded-full *:cursor-default">
           {project.languages.map((language) => languageIcons(language))}
         </div>
         <div className="p-2 w-full">
           <a
-            class="inline-flex items-center justify-center rounded-xl bg-green-600 py-2 px-4 text-base text-white shadow-xl shadow-green-400/20 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+            className="inline-flex items-center justify-center rounded-xl bg-green-600 py-2 px-4 text-base text-white shadow-xl shadow-green-400/20 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
             href="#"
           >
             View in Github

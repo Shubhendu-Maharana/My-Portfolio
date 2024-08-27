@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <div className="flex-1 flex flex-col justify-center items-center p-2">
       <div className="py-5">
-        <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
+        <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-black  dark:text-white sm:text-5xl sm:leading-none md:text-6xl">
           My <span className="text-rose-400">Works</span>
         </h2>
       </div>
