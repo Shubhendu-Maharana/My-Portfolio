@@ -55,7 +55,8 @@ const ProjectCard = ({ project }) => {
         <div className="p-2 w-full">
           <a
             className="inline-flex items-center justify-center rounded-xl bg-green-600 py-2 px-4 text-base text-white shadow-xl shadow-green-400/20 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
-            href="#"
+            href={project.link}
+            target="_blank"
           >
             View in Github
           </a>

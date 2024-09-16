@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { FaGithub, FaLinkedinIn, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTelegramPlane, FaEnvelope } from "react-icons/fa";
 import Typed from "typed.js";
 import { motion } from "framer-motion";
 
@@ -23,7 +23,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="flex-1 flex items-center justify-center lg:px-32 z-50">
+    <div className="flex-1 flex items-center justify-center lg:px-32 z-10">
       <div className="hero">
         <div className="flex items-center justify-center gap-[1rem] p-[1rem] flex-col lg:flex-row-reverse w-full lg:justify-between">
           <motion.div
@@ -77,21 +77,21 @@ const HomePage = () => {
                 <FaGithub />
               </a>
               <a
-                href=""
+                href="https://www.linkedin.com/in/shubhendu-maharana"
                 target="_blank"
                 className="dark:hover:text-gray-400 hover:text-gray-400 transition duration-300"
               >
                 <FaLinkedinIn />
               </a>
               <a
-                href=""
+                href="https://t.me/ShubhenduXD"
                 target="_blank"
                 className="dark:hover:text-gray-400 hover:text-gray-400 transition duration-300"
               >
-                <FaTwitter />
+                <FaTelegramPlane />
               </a>
               <a
-                href=""
+                href="mailto:maharanasubhendu3@gmail.com"
                 target="_blank"
                 className="dark:hover:text-gray-400 hover:text-gray-400 transition duration-300"
               >
