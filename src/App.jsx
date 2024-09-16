@@ -4,7 +4,6 @@ import "./backgroundAnimation.css";
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import AboutMe from "./pages/AboutMe";
-import ContactMe from "./pages/ContactMe";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Projects from "./pages/Projects";
 import { ThemeProvider } from "./Context/ThemeContext";
@@ -19,7 +18,6 @@ const App = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<AboutMe />} />
-            <Route path="/contact" element={<ContactMe />} />
           </Routes>
           <ul className="circles *:dark:bg-[#ffffff33] *:bg-[#00000033]">
             <li></li>
