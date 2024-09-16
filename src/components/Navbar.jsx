@@ -28,13 +28,13 @@ const Navbar = () => {
             className="menu menu-md dropdown-content bg-base-300 rounded-box mt-3 w-64 p-2 shadow"
           >
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/My-Portfolio/">Home</Link>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <Link to="/My-Portfolio/projects">Projects</Link>
             </li>
             <li>
-              <Link to="/about">About me</Link>
+              <Link to="/My-Portfolio/about">About me</Link>
             </li>
           </ul>
         </div>
@@ -48,13 +48,13 @@ const Navbar = () => {
         <div className="hidden lg:flex">
           <ul className="menu menu-horizontal px-1 *:mx-1 text-black dark:text-gray-300">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/My-Portfolio/">Home</Link>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <Link to="/My-Portfolio/projects">Projects</Link>
             </li>
             <li>
-              <Link to="/about">About me</Link>
+              <Link to="/My-Portfolio/about">About me</Link>
             </li>
           </ul>
         </div>

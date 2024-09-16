@@ -37,7 +37,7 @@ const HomePage = () => {
             className="z-10"
           >
             <img
-              src="src\assets\profile-pic.jpg"
+              src="src/assets/profile-pic.jpg"
               className="max-w-64 lg:max-w-md rounded-full"
             />
           </motion.div>
