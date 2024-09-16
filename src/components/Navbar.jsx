@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
         <div className="avatar pl-4">
           <div className="ring-green-500 dark:ring-offset-base-100 w-10 rounded-full ring ring-offset-2">
-            <img src="/favicon.ico" />
+            <img src="/My-Portfolio/favicon.ico" />
           </div>
         </div>
       </div>

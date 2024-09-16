@@ -3,7 +3,7 @@
     "name": "Weather Web App",
     "description": "A Weather forecast app made using React, Vite, Tailwindcss, NodeJS",
     "status": "Completed",
-    "image": "src/Screenshots/Weather-Web-App.png",
+    "image": "/My-Portfolio/Weather-Web-App.png",
     "languages": ["HTML", "Tailwindcss", "React"],
     "link": "https://github.com/Shubhendu-Maharana/Weather-Web-App"
   },
@@ -11,7 +11,7 @@
     "name": "Weather Android App",
     "description": "A Weather forecast app made using React Native, Expo, Nativewind, NodeJS",
     "status": "Completed",
-    "image": "src/Screenshots/Weather-Android-App.jpg",
+    "image": "/My-Portfolio/Weather-Android-App.jpg",
     "languages": ["React Native", "Expo", "Nativewind", "NodeJS"],
     "link": "https://github.com/Shubhendu-Maharana/Weather"
   },
@@ -19,7 +19,7 @@
     "name": "AI Quiz Web App",
     "description": "A Quiz app powered by Google Gemini AI made using React, Vite, Tailwindcss, NodeJS",
     "status": "Completed",
-    "image": "src/Screenshots/AI-Quiz-Web-App.png",
+    "image": "/My-Portfolio/AI-Quiz-Web-App.png",
     "languages": ["HTML", "Tailwindcss", "React"],
     "link": "https://github.com/Shubhendu-Maharana/Computer-Quiz-App"
   },
@@ -27,7 +27,7 @@
     "name": "Real-Time Chat Web App",
     "description": "A Real Time Web Chatting App made using MERN Stack",
     "status": "Completed",
-    "image": "src/Screenshots/Chat-Web-App.png",
+    "image": "/My-Portfolio/Chat-Web-App.png",
     "languages": ["HTML", "Tailwindcss", "React"],
     "link": "https://github.com/Shubhendu-Maharana/QuizApp"
   }

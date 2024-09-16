@@ -1,5 +1,10 @@
 import { useEffect } from "react";
-import { FaGithub, FaLinkedinIn, FaTelegramPlane, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedinIn,
+  FaTelegramPlane,
+  FaEnvelope,
+} from "react-icons/fa";
 import Typed from "typed.js";
 import { motion } from "framer-motion";
 
@@ -37,7 +42,7 @@ const HomePage = () => {
             className="z-10"
           >
             <img
-              src="src/assets/profile-pic.jpg"
+              src="/My-Portfolio/profile-pic.jpg"
               className="max-w-64 lg:max-w-md rounded-full"
             />
           </motion.div>
