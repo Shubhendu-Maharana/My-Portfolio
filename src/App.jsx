@@ -15,9 +15,9 @@ const App = () => {
         <div className="area bg-white dark:bg-base-100 min-h-screen flex flex-col">
           <Navbar />
           <Routes>
-            <Route path="/My-Portfolio/" element={<HomePage />} />
-            <Route path="/My-Portfolio/projects" element={<Projects />} />
-            <Route path="/My-Portfolio/about" element={<AboutMe />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/about" element={<AboutMe />} />
           </Routes>
           <ul className="circles *:dark:bg-[#ffffff33] *:bg-[#00000033]">
             <li></li>
