@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://shubhendu-maharana.github.io/My-Portfolio/",
+  "homepage": "https://shubhendu-maharana.netlify.app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
