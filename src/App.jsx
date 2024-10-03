@@ -14,7 +14,7 @@ const App = () => {
       <div className="area bg-white dark:bg-base-100 min-h-screen flex flex-col">
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="*" element={<HomePage />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<AboutMe />} />
         </Routes>
